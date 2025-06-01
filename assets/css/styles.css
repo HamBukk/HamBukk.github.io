@@ -126,11 +126,6 @@ iframe {
 }
 .header .profile-image {
   margin-right: 30px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50;
-  overflow: hidden;
-  object-fit: cover;
 }
 .header .profile-content .name {
   color: #49515a;
@@ -518,6 +513,8 @@ iframe {
 .footer .fa-heart {
   color: #fb866a;
 }
+
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header {
