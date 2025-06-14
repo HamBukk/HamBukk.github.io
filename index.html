@@ -1,50 +1,48 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
-<!-- HEADER-->
 <head>
-    <meta charset = "UTF-8">
-
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Title -->
+    <title>Hamza Bukhari | Portfolio</title>
 
-    <title> Hamza Bukhari | Portfolio</title>
+    <!-- Styling -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugins/Bootstrap/css/bootstrap.min.css">
 
-<!-- STYLING -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
 
-<!-- Global CSS/Bootstrap-->
-<link rel="stylesheet" href="assets/plugins/Bootstrap/css/bootstrap.min.css">
-
-<!-- Plugin Css/FontAwesome-->
-<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-
-
-<!-- Theme Style-->
-<link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-
+    <!-- Theme Style -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 
 <body>
     <!-- Header -->
-     <header class="header">
+    <header class="header">
         <div class="container">
-            <img class="profile-image img-responsive pull-left" src = "assets/images/profile.jpg" alt = "Hamza Bukhari" />
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.jpg" alt="Hamza Bukhari" />
             <div class="profile-content pull-left">
-                <h1 class="name"> Hamza Bukhari </h1>
-                <h2 class="desc"> Computer Science Student at West Chester Univserity</h2>
+                <h1 class="name">Hamza Bukhari</h1>
+                <h2 class="desc">Computer Science Student at West Chester University</h2>
                 <ul class="social list-inline">
                     <li><a href="https://www.linkedin.com/in/hamza-bukhari-53192b241/"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/HamBukk"><i class="fa fa-github-alt"></i></a></li>
                 </ul>
-            </div> <!--profile-->
-        </div> <!--container-->
-     </header> <!--header-->
+            </div> <!-- .profile-content -->
+        </div> <!-- .container -->
+    </header> <!-- .header -->
 
-     <div class="container section-wrapper">
+    <!-- Main Content -->
+    <div class="container section-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
+
+                <!-- About Section -->
                 <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
@@ -56,76 +54,74 @@
                     </div>
                 </section>
 
+                <!-- Projects Section -->
                 <section class="latest section">
                     <div class="section-inner">
                         <h2 class="heading">Projects</h2>
-                        <div class="content">   
+                        <div class="content">
 
-                            
-                        </div>
-                    </div>
-
-                    <!-- Start the latest work section-->
-                    <div class="item featured text-center">
-                        <h3 class="title">Procrasticheck</h3>
-                        <p class="summary">A platform for college students to track their performances</p>
-                        <div class="featured-image">
-                            <img class="img-responsive" src="assets/images/procrasticheck.png" alt="featured project" />
-                            <div class="ribbon">
-                                <div class="text">Upcoming Projects</div>
+                            <!-- Project: Procrasticheck -->
+                            <div class="item featured text-center">
+                                <h3 class="title">Procrasticheck</h3>
+                                <p class="summary">A platform for college students to track their performances</p>
+                                <div class="featured-image">
+                                    <img class="img-responsive" src="assets/images/procrasticheck.png" alt="featured project" />
+                                    <div class="ribbon">
+                                        <div class="text">Upcoming Projects</div>
+                                    </div>
+                                </div>
+                                <div class="desc text-left">
+                                    <p style="text-align: center;">
+                                        A comprehensive platform for college students to track their academic performance, class attendance, assignments, and participation that is all stored and managed through a relational database with role-based access based on whether you are a student, professor, or an admin (like an advisor).
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                            <hr class="divider" />
 
-                        <div class="desc text-left">
-                            <p style="text-align: center;">
-                                 A comprehensive platform for college students to track their academic performance, class attendance, assignments, and participation that is all stored and managed through a relational database with role-based access based on whether you are a student, professor or an admin (like a advisor).
-                            </p>
-                        </div>
-                    </div>
-                    <hr class="divider" />
+                            <!-- Project: SmartRecipe -->
+                            <div class="item row">
+                                <img class="col-md-4 col-sm-4 col-xs-12 img-responsive" src="assets/images/smartrecipe.png" alt="Smartrecipe Logo">
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title">SmartRecipe App</h3>
+                                    <p>An application that gives users recipes based on their nutrition needs</p>
+                                    <p><a class="more-link" href="https://github.com/HamBukk/SmartRecipe" target="_blank"><i class="fa fa-external-link"></i>Find out more</a></p>
+                                </div>
+                            </div>
 
-                    <!-- END FEATURE -->
+                            <!-- Project: LeepFrog CRM -->
+                            <div class="item row">
+                                <img class="col-md-4 col-sm-4 col-xs-12 img-responsive" src="assets/images/leepfrog.png" alt="LeepFrog Logo">
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title">LeepFrog CRM</h3>
+                                    <p>
+                                        A CRM for LeepFrog LLC. A service marketplace platform that empowers student entrepreneurs to launch and manage local service-based businesses. The platform enables customers to book, manage, and pay for services offered by these student-run franchises, while providing backend tools for employees and franchise owners to handle scheduling, payments, and CRM.
+                                    </p>
+                                    <p>No GitHub link as it is under NDA</p>
+                                </div>
+                            </div>
 
-                    <div class="item row">
-                        <img class="col-md-4 col-sm-4 col-xs-12 img-responsive" src="assets/images/smartrecipe.png" alt="Smartrecipe Logo">
-                        <div class="desc col-md-8 col-sm-8 col-xs-12">
-                            <h3 class="title">SmartRecipe App</h3>
-                            <p>A application that gives user's recipes based on their nutrition needs</p>
-                            <p><a class="more-link" href="https://github.com/HamBukk/SmartRecipe" target="_blank"><i class="fa fa-external-link"></i>Find out more</a></p>
+                            <!-- Project: LeaderBoard Tracker -->
+                            <div class="item row">
+                                <img class="col-md-4 col-sm-4 col-xs-12 img-responsive" src="assets/images/leaderboardtracker.png" alt="Leaderboard Tracker Logo">
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title">LeaderBoard Tracker</h3>
+                                    <p>
+                                        A real-time SQL-based leaderboard tracker using Riot Games’ API for the game "League of Legends", will later include "TeamFight Tactics" and "Valorant".
+                                    </p>
+                                    <p><a class="more-link" href="https://github.com/HamBukk/LeagueTracker" target="_blank"><i class="fa fa-external-link"></i>Find out more</a></p>
+                                </div>
+                            </div>
 
-                        </div>
-                    </div>
+                        </div> <!-- .content -->
+                    </div> <!-- .section-inner -->
+                </section> <!-- .latest -->
 
-                    <div class="item row">
-                        <img class="col-md-4 col-md-4 col-xs-12 img-responsive" src="assets/images/leepfrog.png" alt="LeepFrog Logo">
-                        <div class="desc col-md-8 col-sm-8 col-xs-12">
-                            <h3 class="title">LeepFrog CRM</h3>
-                            <p>A CRM for LeepFrog LLC. A service marketplace platform that empowers student entrepreneurs to launch and manage local service-based businesses. The platform enables customers to book, manage, and pay for services offered by these student-run franchises, while providing backend tools for employees and franchise owners to handle scheduling, payments, and CRM. </p>
-                            <p>No Github Link as it is under NDA </p>
-                        </div>
-                    </div>
+            </div> <!-- .primary -->
+        </div> <!-- .row -->
+    </div> <!-- .container -->
 
-                    <div class="item row">
-                        <img class="col-md-4 col-md-4 col-xs-12 img-responsive" src="assets/images/leaderboardtracker.png" alt="LeepFrog Logo">
-                        <div class="desc col-md-8 col-sm-8 col-xs-12">
-                            <h3 class="title">LeaderBoard Tracker</h3>
-                            <p> A real-time SQL-based leaderboard tracker using Riot Games’ API for the game "League of Legends", will later include "TeamFight Tactics" and "Valorant"</p>
-                            <p><a class="more-link" href="https://github.com/HamBukk/LeagueTracker" target="_blank"><i class="fa fa-external-link"></i>Find out more</a></p>
-                        </div>
-                    </div>
-
-                </section>
-
-
-            </div>
-        </div>
-
-
-     </div>
-
-    <!-- ADD JS WHENVER AVALIABLE-->
-    <script src = " "></script>
-
+    <!-- JavaScript (placeholder for future use) -->
+    <script src=""></script>
 </body>
 
 </html>
